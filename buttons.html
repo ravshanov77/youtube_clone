@@ -44,7 +44,7 @@
     opacity: 0.7;
   }
 
-  .tweet-button{
+  .tweet-button {
     background-color: rgb(2, 158, 255);
     color: white;
     font-weight: bold;
@@ -54,6 +54,11 @@
     border: none;
     border-radius: 18px;
     cursor: pointer;
+    transition: box-shadow 0.15s;
+  }
+
+  .tweet-button:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
   }
 </style>
 
@@ -67,4 +72,4 @@
 
 <button class="tweet-button">
   Tweet
-</button><br>
+</button>
