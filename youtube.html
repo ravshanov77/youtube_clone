@@ -18,8 +18,7 @@
       }
 
       .thumbnail {
-        width: 300px;
-        display: block;
+        width: 100%;
       }
 
       .search-bar {
@@ -34,16 +33,16 @@
         margin-bottom: 12px;
       }
 
-      .video-preview {
-        width: 300px;
-        display: inline-block;
-        vertical-align: top;
-        margin-right: 15px;
-      }
-
       .video-info-grid {
         display: grid;
         grid-template-columns: 50px 1fr;
+      }
+
+      .video-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 16px;
+        row-gap: 40px;
       }
 
       .profile-picture {
