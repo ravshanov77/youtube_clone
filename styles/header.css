@@ -6,11 +6,8 @@
 }
 
 .left-section {
-  background-color: lightblue;
-  width: 150px;
   display: flex;
   align-items: center;
-  flex-direction: row;
 }
 
 .hamburger-menu {
