@@ -1,10 +1,11 @@
 .thumbnail {
   width: 100%;
+  border-radius: 12px;
 }
 
 .video-title {
   margin-top: 0;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 500;
   line-height: 20px;
   margin-bottom: 12px;
