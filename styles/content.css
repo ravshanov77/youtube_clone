@@ -1,0 +1,30 @@
+.content-type-bar {
+  position: fixed;
+  height: 55px;
+  width: 5000px;
+  flex: 1;
+  display: flex;
+  padding-top: 4px;
+  z-index: 100;
+  background-color: white;
+}
+
+.content-type-button {
+  background-color: gray;
+  height: 38px;
+  border: none;
+  border-radius: 8px;
+  font-family: Roboto, Arial;
+  background-color: rgb(241, 241, 241);
+  font-weight: 500;
+  padding-left: 15px;
+  padding-right: 18px;
+  margin-right: 10px;
+  font-size: 17px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.content-type-button:hover {
+  background-color: rgb(234, 234, 234);
+}
