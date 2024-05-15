@@ -19,10 +19,16 @@
   <body style="padding-top: 80px">
     <div class="header">
       <div class="left-section">
-        <img class="hamburger-menu" src="icons/hamburger-menu.svg" />
-        <a href="https://youtube.com" target="_blank"
-          ><img class="youtube-logo" src="icons/youtube-logo.svg"
-        /></a>
+        <div class="hamburger-menu-bar">
+          <img class="hamburger-menu" src="icons/hamburger-menu.svg" />
+        </div>
+        <div class="youtube-logo-bar">
+          <div>
+            <a href="https://youtube.com" target="_blank"
+              ><img class="youtube-logo" src="icons/youtube-logo.svg"
+            /></a>
+          </div>
+        </div>
       </div>
 
       <div class="middle-section">
@@ -46,10 +52,22 @@
     </div>
 
     <div class="sidebar">
-      <div class="sidebar-link"><img src="icons/home.svg" /></div>
-      <div class="sidebar-link"><img src="icons/shorts.svg" /></div>
-      <div class="sidebar-link"><img src="icons/subscriptions.svg" /></div>
-      <div class="sidebar-link"><img src="icons/library.svg" /></div>
+      <div class="sidebar-link">
+        <img src="icons/home.svg" />
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/shorts.svg" />
+        <div>Shorts</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/subscriptions.svg" />
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/library.svg" />
+        <div>You</div>
+      </div>
     </div>
 
     <div class="content-type-bar">
@@ -64,6 +82,7 @@
       <button class="content-type-button">Hardware</button>
       <button class="content-type-button">Technology</button>
       <button class="content-type-button">New to you</button>
+      <div class="tooltip">Search</div>
     </div>
 
     <div class="video-grid">
