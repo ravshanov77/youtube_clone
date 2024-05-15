@@ -23,10 +23,10 @@
 
   margin-left: 1010px;
   border-radius: 5px;
-  opacity: 0;
+  opacity: 0.9;
 }
 
-.search-button:hover .content-type-bar .tooltip {
+.search-button:hover {
   opacity: 1;
 }
 
@@ -34,12 +34,28 @@
   background-color: gray;
   height: 38px;
   border: none;
-  border-radius: 8px;
+  border-radius: 9px;
   font-family: Roboto, Arial;
   background-color: rgb(241, 241, 241);
   font-weight: 500;
-  padding-left: 15px;
-  padding-right: 18px;
+  padding-left: 14px;
+  padding-right: 17px;
+  margin-right: 10px;
+  font-size: 17px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.content-type-button-all {
+  height: 38px;
+  border: none;
+  border-radius: 9px;
+  font-family: Roboto, Arial;
+  background-color: black;
+  color: white;
+  font-weight: 500;
+  padding-left: 14px;
+  padding-right: 17px;
   margin-right: 10px;
   font-size: 17px;
   cursor: pointer;
