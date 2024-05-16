@@ -74,3 +74,15 @@
   right: 12px;
   border-radius: 4px;
 }
+
+@media (max-width: 1100px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+/* 
+@media (min-width: 1700px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+} */
