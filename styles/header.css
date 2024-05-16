@@ -13,6 +13,25 @@
   z-index: 100;
 }
 
+.tooltip {
+  position: absolute;
+  background-color: rgb(91, 91, 91);
+  color: white;
+  font-family: Roboto, Arial;
+  font-size: 14px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-right: 12px;
+  padding-left: 12px;
+  margin-left: -28px;
+  top: 72px;
+  border-radius: 5px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  z-index: 100;
+  pointer-events: none;
+}
+
 .left-section {
   display: flex;
   padding-left: 30px;
@@ -23,16 +42,11 @@
   width: 50px;
   margin-bottom: 20px;
   margin-left: -10px;
-  /* background-color: lightpink; */
-  align-items: center;
-  justify-content: center;
 }
 
 .hamburger-menu {
   height: 29.5px;
   cursor: pointer;
-  /* background-color: lightblue; */
-  /* margin-right: 28px; */
   margin-top: 6px;
   padding-top: 8px;
   padding-bottom: 8px;
@@ -104,8 +118,26 @@
   cursor: pointer;
 }
 
-.search-button:hover .content-type-bar .tooltip {
-  opacity: 1;
+.search-button .tooltip {
+  margin-left: 5px;
+  top: 72px;
+}
+
+.search-button:hover {
+  background-color: rgb(241, 241, 241);
+}
+
+.search-button:hover .tooltip {
+  opacity: 0.9;
+}
+
+.voice-search-button .tooltip {
+  margin-left: -60px;
+  top: 80px;
+}
+
+.voice-search-button:hover .tooltip {
+  opacity: 0.9;
 }
 
 .search-icon {
@@ -119,6 +151,11 @@
   border-radius: 25px;
   border: none;
   background-color: rgb(243, 243, 243);
+  cursor: pointer;
+}
+
+.voice-search-button:hover {
+  background-color: rgb(228, 228, 228);
 }
 
 .voice-search-icon {
@@ -138,34 +175,73 @@
 
 .upload-icon {
   height: 29px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.upload-icon:hover {
+  background-color: rgb(231, 230, 230);
+}
+
+.right-section .tooltip {
+  margin-left: -6px;
+  top: 76px;
+}
+
+.upload-button:hover .tooltip {
+  opacity: 0.9;
 }
 
 .notifications-icon {
   height: 29px;
   margin-left: -6px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  border-radius: 30px;
+}
+
+.notifications-icon-container .tooltip {
+  margin-left: -28px;
+  top: 72px;
+}
+
+.notifications-icon-container:hover .tooltip {
+  opacity: 0.9;
 }
 
 .notifications-icon-container {
   position: relative;
-  padding-top: 4px;
+  cursor: pointer;
   padding-left: 4px;
   padding-right: 4px;
-  padding-bottom: 4px;
+  border-radius: 100px;
+
+  margin-right: 10px;
+}
+
+.notifications-icon-container:hover {
+  background-color: rgb(231, 230, 230);
 }
 
 .notifications-count {
   position: absolute;
   font-size: 13px;
   font-family: Roboto, Arial;
-  right: -5px;
-  top: -3px;
+  right: 6px;
+  top: 3px;
   background-color: rgb(203, 6, 6);
-  border-radius: 18px;
+  border-radius: 100px;
   color: white;
-  padding-top: 3px;
+  padding-top: 2px;
   padding-left: 6px;
   padding-right: 6px;
-  padding-bottom: 3px;
+  padding-bottom: 2px;
   border-width: 2px;
   border-color: white;
   border-style: solid;
@@ -174,4 +250,5 @@
 .my-icon {
   height: 39px;
   border-radius: 20px;
+  cursor: pointer;
 }
