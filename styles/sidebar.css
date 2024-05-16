@@ -1,5 +1,6 @@
 .sidebar {
   position: fixed;
+
   left: 0;
   bottom: 0;
   top: 80px;
@@ -22,12 +23,13 @@
 }
 
 .sidebar-link:hover {
-  background-color: rgb(236, 236, 236);
-  border-radius: 4px;
+  background-color: rgb(241, 241, 241);
+  border-radius: 8px;
 }
 
 .sidebar-link img {
   height: 30px;
+  margin-top: 10px;
   margin-bottom: 6px;
 }
 
