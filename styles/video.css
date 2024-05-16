@@ -1,6 +1,6 @@
 .thumbnail {
   width: 99%;
-  border-radius: 12px;
+  border-radius: 16px;
 }
 
 .video-title {
@@ -31,7 +31,7 @@
   column-gap: 16px;
   row-gap: 40px;
   padding-right: 20px;
-  margin-top: 84px;
+  margin-top: 100px;
 }
 
 .profile-picture {
