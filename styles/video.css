@@ -11,6 +11,11 @@
   margin-bottom: 12px;
 }
 
+.video-title-link {
+  text-decoration: none;
+  color: black;
+}
+
 .video-preview {
   width: 500px;
   height: 410px;
