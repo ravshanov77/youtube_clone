@@ -7,6 +7,4 @@ p {
 body {
   margin: 0;
   padding-left: 120px;
-  transform: scale(0.909); /* 100% / 110% = 0.909 */
-  transform-origin: top left; /* Ensure scaling starts from the top left */
 }
