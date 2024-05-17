@@ -65,10 +65,7 @@
   font-family: Roboto, Arial;
   font-size: 14px;
   font-weight: 500;
-  padding-top: 4px;
-  padding-left: 4px;
-  padding-right: 4px;
-  padding-bottom: 4px;
+  padding: 4px;
   position: absolute;
   bottom: 12px;
   right: 12px;
@@ -80,9 +77,15 @@
     grid-template-columns: 1fr 1fr;
   }
 }
-/* 
-@media (min-width: 1700px) {
+
+@media (min-width: 751px) and (max-width: 999px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 2100px) {
   .video-grid {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
-} */
+}
