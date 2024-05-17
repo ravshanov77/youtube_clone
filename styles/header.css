@@ -17,7 +17,6 @@
   position: absolute;
   background-color: rgb(91, 91, 91);
   color: white;
-  font-family: Roboto, Arial;
   font-size: 14px;
   padding-top: 13px;
   padding-bottom: 13px;
@@ -90,17 +89,14 @@
   width: 0;
   padding-left: 18px;
   font-size: 16px;
-  border-width: 1px;
+  border: 1px solid rgb(200, 200, 200);
   border-right: 0;
-  border-color: rgb(200, 200, 200);
-  border-style: solid;
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
   box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
 }
 
 .search-bar::placeholder {
-  font-family: Roboto, Arial;
   font-size: 19px;
 }
 
@@ -232,7 +228,6 @@
 .notifications-count {
   position: absolute;
   font-size: 13px;
-  font-family: Roboto, Arial;
   right: 6px;
   top: 3px;
   background-color: rgb(203, 6, 6);
