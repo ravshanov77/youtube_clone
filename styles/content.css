@@ -1,4 +1,5 @@
 .content-type-bar {
+  overflow: auto;
   position: fixed;
   height: 55px;
   width: 5000px;
