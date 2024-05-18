@@ -16,6 +16,10 @@
   color: black;
 }
 
+.video-author-link {
+  text-decoration: none;
+}
+
 .video-preview {
   width: 500px;
   height: 410px;
