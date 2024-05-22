@@ -1,0 +1,16 @@
+.shorts-header {
+  display: flex;
+}
+
+.shorts-logo {
+  display: flex;
+}
+
+.shorts-icon {
+  width: 40px;
+}
+
+.shorts-image {
+  width: 290px;
+  border-radius: 14px;
+}
