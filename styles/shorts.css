@@ -36,6 +36,14 @@
 .shorts-close-button {
   border: none;
   background-color: white;
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+}
+
+.shorts-close-button:hover {
+  background-color: rgb(223, 223, 223);
+  border-radius: 50px;
 }
 
 .shorts-close-button-img {
