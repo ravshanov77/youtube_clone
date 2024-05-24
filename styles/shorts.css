@@ -49,3 +49,19 @@
 .shorts-close-button-img {
   width: 30px;
 }
+
+.shorts-info-grid {
+  margin-top: 10px;
+  height: 90px;
+  width: 240px;
+}
+
+.shorts-info {
+  font-size: 19px;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.shorts-stats {
+  color: rgb(96, 96, 96);
+}
