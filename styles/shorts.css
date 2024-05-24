@@ -1,22 +1,26 @@
 .shorts-grid {
   margin-top: 20px;
+  margin-bottom: 100px;
+  margin-right: 40px;
 }
 
 .shorts-header {
   display: flex;
   justify-content: space-between;
   height: 70px;
+  align-items: self-start;
 }
 
 .shorts-logo {
   display: flex;
-  width: 100px;
+  width: 110px;
   margin-left: 18px;
+  align-items: center;
   justify-content: space-between;
 }
 
 .shorts-text {
-  font-size: 22px;
+  font-size: 24px;
   font-weight: bold;
 }
 
@@ -27,4 +31,13 @@
 .shorts-image {
   width: 290px;
   border-radius: 14px;
+}
+
+.shorts-close-button {
+  border: none;
+  background-color: white;
+}
+
+.shorts-close-button-img {
+  width: 30px;
 }
