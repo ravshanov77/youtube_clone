@@ -52,8 +52,14 @@
 
 .shorts-info-grid {
   margin-top: 10px;
-  height: 90px;
+  height: 80px;
   width: 240px;
+}
+
+.three-dots-icon {
+  width: 20px;
+  top: 100px;
+  right: 1px;
 }
 
 .shorts-info {
@@ -64,4 +70,9 @@
 
 .shorts-stats {
   color: rgb(96, 96, 96);
+}
+
+.shorts-title-link {
+  text-decoration: none;
+  color: black;
 }
