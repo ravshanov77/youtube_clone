@@ -514,14 +514,11 @@
 
     <script>
       document.addEventListener("DOMContentLoaded", function () {
-        // Select the button inside the link
         const noLinkButton = document.querySelector(".three-dots-icon");
 
-        // Add an event listener to prevent the default action and stop propagation
         noLinkButton.addEventListener("click", function (event) {
-          event.preventDefault(); // Prevent the link from being followed
-          event.stopPropagation(); // Prevent the event from bubbling up to the parent link
-          // You can add additional logic here if needed
+          event.preventDefault();
+          event.stopPropagation();
           console.log("Button clicked, but link not followed.");
         });
       });
