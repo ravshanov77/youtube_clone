@@ -51,28 +51,40 @@
 }
 
 .shorts-info-grid {
-  margin-top: 10px;
-  height: 80px;
-  width: 240px;
+  display: flex;
+  margin-top: 12px;
+  height: 50px;
+  width: 300px;
+}
+
+.shorts-info-grid:hover .three-dots-icon {
+  opacity: 1;
 }
 
 .three-dots-icon {
   width: 20px;
-  top: 100px;
-  right: 1px;
+  height: 20px;
+  opacity: 0;
 }
 
 .shorts-info {
   font-size: 19px;
   margin-bottom: 8px;
+  max-width: 240px;
   font-weight: 500;
+  padding-right: 20px;
 }
 
 .shorts-stats {
   color: rgb(96, 96, 96);
 }
 
+.shorts-stats:hover .three-dots-icon {
+  opacity: 1;
+}
+
 .shorts-title-link {
   text-decoration: none;
   color: black;
+  width: 300px;
 }
