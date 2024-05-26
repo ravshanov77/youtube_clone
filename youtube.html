@@ -512,16 +512,19 @@
       </section>
     </main>
 
-    <script>
+    <!-- <script>
       document.addEventListener("DOMContentLoaded", function () {
-        const noLinkButton = document.querySelector(".three-dots-icon");
+        const threeDotsButtons =
+          document.querySelectorAll(".three-dots-button");
 
-        noLinkButton.addEventListener("click", function (event) {
-          event.preventDefault();
-          event.stopPropagation();
-          console.log("Button clicked, but link not followed.");
+        threeDotsButtons.forEach((button) => {
+          button.addEventListener("click", function (event) {
+            event.preventDefault(threeDotsButtons);
+            event.stopPropagation(threeDotsButtons);
+            console.log("Three-dots button clicked, link not followed.");
+          });
         });
       });
-    </script>
+    </script> -->
   </body>
 </html>
